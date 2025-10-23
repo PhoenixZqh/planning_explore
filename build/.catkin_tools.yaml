@@ -1,0 +1,6 @@
+devel_space: /mnt/planB/planning_explore/devel
+install: false
+install_space: /mnt/planB/planning_explore/install
+profile: default
+source_space: /mnt/planB/planning_explore/src
+workspace: /mnt/planB/planning_explore

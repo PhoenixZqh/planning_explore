@@ -1,0 +1,1 @@
+/mnt/planB/planning_explore/devel/.private/auto_nav/share/auto_nav/cmake/auto_navConfig.cmake

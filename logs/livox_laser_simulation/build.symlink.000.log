@@ -1,0 +1,4 @@
+Symlinking /mnt/planB/planning_explore/devel/lib/liblivox_laser_simulation.so
+Symlinking /mnt/planB/planning_explore/devel/lib/pkgconfig/livox_laser_simulation.pc
+Symlinking /mnt/planB/planning_explore/devel/share/livox_laser_simulation/cmake/livox_laser_simulationConfig-version.cmake
+Symlinking /mnt/planB/planning_explore/devel/share/livox_laser_simulation/cmake/livox_laser_simulationConfig.cmake

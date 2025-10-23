@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /mnt/planB/planning_explore/devel/.private/livox_laser_simulation/setup.sh
