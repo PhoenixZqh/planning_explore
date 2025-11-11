@@ -1,4 +1,0 @@
-[ 33%] [32mBuilding CXX object CMakeFiles/livox_laser_simulation.dir/src/livox_points_plugin.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/livox_laser_simulation.dir/src/livox_ode_multiray_shape.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /mnt/planB/planning_explore/devel/.private/livox_laser_simulation/lib/liblivox_laser_simulation.so[0m
-[100%] Built target livox_laser_simulation

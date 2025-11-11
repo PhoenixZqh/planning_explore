@@ -1,1 +1,0 @@
-/mnt/planB/planning_explore/devel/.private/auto_nav/lib/pkgconfig/auto_nav.pc
