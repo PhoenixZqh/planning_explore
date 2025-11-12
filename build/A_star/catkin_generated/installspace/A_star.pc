@@ -1,0 +1,8 @@
+prefix=/mnt/planB/planning_explore/install
+
+Name: A_star
+Description: Description of A_star
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
