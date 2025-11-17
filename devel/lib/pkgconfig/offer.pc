@@ -1,0 +1,1 @@
+/mnt/planB/planning_explore/devel/.private/offer/lib/pkgconfig/offer.pc

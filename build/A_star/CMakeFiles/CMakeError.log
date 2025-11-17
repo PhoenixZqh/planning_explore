@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-YXfjca
+Change Dir: /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-hYsqfP
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3eb67/fast && /usr/bin/make  -f CMakeFiles/cmTC_3eb67.dir/build.make CMakeFiles/cmTC_3eb67.dir/build
-make[1]: Entering directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-YXfjca'
-Building C object CMakeFiles/cmTC_3eb67.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3eb67.dir/src.c.o -c /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-YXfjca/src.c
-Linking C executable cmTC_3eb67
-/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb67.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_3eb67.dir/src.c.o -o cmTC_3eb67 
-/usr/bin/ld: CMakeFiles/cmTC_3eb67.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a90ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_a90ac.dir/build.make CMakeFiles/cmTC_a90ac.dir/build
+make[1]: Entering directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-hYsqfP'
+Building C object CMakeFiles/cmTC_a90ac.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a90ac.dir/src.c.o -c /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-hYsqfP/src.c
+Linking C executable cmTC_a90ac
+/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a90ac.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a90ac.dir/src.c.o -o cmTC_a90ac 
+/usr/bin/ld: CMakeFiles/cmTC_a90ac.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_3eb67.dir/build.make:99: cmTC_3eb67] Error 1
-make[1]: Leaving directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-YXfjca'
-make: *** [Makefile:127: cmTC_3eb67/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_a90ac.dir/build.make:99: cmTC_a90ac] Error 1
+make[1]: Leaving directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-hYsqfP'
+make: *** [Makefile:127: cmTC_a90ac/fast] Error 2
 
 
 Source file was:
@@ -42,20 +42,20 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-jj6ngb
+Change Dir: /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-53GcyR
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_5089f/fast && /usr/bin/make  -f CMakeFiles/cmTC_5089f.dir/build.make CMakeFiles/cmTC_5089f.dir/build
-make[1]: Entering directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-jj6ngb'
-Building C object CMakeFiles/cmTC_5089f.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5089f.dir/CheckFunctionExists.c.o -c /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-jj6ngb/CheckFunctionExists.c
-Linking C executable cmTC_5089f
-/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5089f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_5089f.dir/CheckFunctionExists.c.o -o cmTC_5089f  -lpthreads 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d61e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d61e.dir/build.make CMakeFiles/cmTC_7d61e.dir/build
+make[1]: Entering directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-53GcyR'
+Building C object CMakeFiles/cmTC_7d61e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7d61e.dir/CheckFunctionExists.c.o -c /mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-53GcyR/CheckFunctionExists.c
+Linking C executable cmTC_7d61e
+/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d61e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_7d61e.dir/CheckFunctionExists.c.o -o cmTC_7d61e  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_5089f.dir/build.make:99: cmTC_5089f] Error 1
-make[1]: Leaving directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-jj6ngb'
-make: *** [Makefile:127: cmTC_5089f/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_7d61e.dir/build.make:99: cmTC_7d61e] Error 1
+make[1]: Leaving directory '/mnt/planB/planning_explore/build/A_star/CMakeFiles/CMakeScratch/TryCompile-53GcyR'
+make: *** [Makefile:127: cmTC_7d61e/fast] Error 2
 
 
 

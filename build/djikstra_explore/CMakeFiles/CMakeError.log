@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-zzDE7N
+Change Dir: /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-nBycY9
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_f24b7/fast && /usr/bin/make  -f CMakeFiles/cmTC_f24b7.dir/build.make CMakeFiles/cmTC_f24b7.dir/build
-make[1]: Entering directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-zzDE7N'
-Building C object CMakeFiles/cmTC_f24b7.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f24b7.dir/src.c.o -c /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-zzDE7N/src.c
-Linking C executable cmTC_f24b7
-/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f24b7.dir/link.txt --verbose=1
-/usr/bin/cc -rdynamic CMakeFiles/cmTC_f24b7.dir/src.c.o -o cmTC_f24b7 
-/usr/bin/ld: CMakeFiles/cmTC_f24b7.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_74b2b/fast && /usr/bin/make  -f CMakeFiles/cmTC_74b2b.dir/build.make CMakeFiles/cmTC_74b2b.dir/build
+make[1]: Entering directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-nBycY9'
+Building C object CMakeFiles/cmTC_74b2b.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_74b2b.dir/src.c.o -c /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-nBycY9/src.c
+Linking C executable cmTC_74b2b
+/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74b2b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_74b2b.dir/src.c.o -o cmTC_74b2b 
+/usr/bin/ld: CMakeFiles/cmTC_74b2b.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_f24b7.dir/build.make:99: cmTC_f24b7] Error 1
-make[1]: Leaving directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-zzDE7N'
-make: *** [Makefile:127: cmTC_f24b7/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_74b2b.dir/build.make:99: cmTC_74b2b] Error 1
+make[1]: Leaving directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-nBycY9'
+make: *** [Makefile:127: cmTC_74b2b/fast] Error 2
 
 
 Source file was:
@@ -42,20 +42,20 @@ int main(void)
 
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-YT6XfQ
+Change Dir: /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-9s4sNa
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_64498/fast && /usr/bin/make  -f CMakeFiles/cmTC_64498.dir/build.make CMakeFiles/cmTC_64498.dir/build
-make[1]: Entering directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-YT6XfQ'
-Building C object CMakeFiles/cmTC_64498.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_64498.dir/CheckFunctionExists.c.o -c /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-YT6XfQ/CheckFunctionExists.c
-Linking C executable cmTC_64498
-/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64498.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_64498.dir/CheckFunctionExists.c.o -o cmTC_64498  -lpthreads 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ceb78/fast && /usr/bin/make  -f CMakeFiles/cmTC_ceb78.dir/build.make CMakeFiles/cmTC_ceb78.dir/build
+make[1]: Entering directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-9s4sNa'
+Building C object CMakeFiles/cmTC_ceb78.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ceb78.dir/CheckFunctionExists.c.o -c /mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-9s4sNa/CheckFunctionExists.c
+Linking C executable cmTC_ceb78
+/home/zqh/.local/lib/python3.8/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb78.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_ceb78.dir/CheckFunctionExists.c.o -o cmTC_ceb78  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_64498.dir/build.make:99: cmTC_64498] Error 1
-make[1]: Leaving directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-YT6XfQ'
-make: *** [Makefile:127: cmTC_64498/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ceb78.dir/build.make:99: cmTC_ceb78] Error 1
+make[1]: Leaving directory '/mnt/planB/planning_explore/build/djikstra_explore/CMakeFiles/CMakeScratch/TryCompile-9s4sNa'
+make: *** [Makefile:127: cmTC_ceb78/fast] Error 2
 
 
 

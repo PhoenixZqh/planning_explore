@@ -1,0 +1,15 @@
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:366[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+                 from [01m[K/mnt/planB/planning_explore/src/kalman/src/ekf.hpp:3[m[K,
+                 from [01m[K/mnt/planB/planning_explore/src/kalman/src/ekf_node.cpp:1[m[K:
+/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h: In instantiation of ‘[01m[Kvoid Eigen::internal::call_assignment_no_alias(Dst&, const Src&, const Func&) [with Dst = Eigen::Matrix<double, 7, 10>; Src = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 10, 10, 0, 10, 10> >; Func = Eigen::internal::assign_op<double, double>][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:732:41:[m[K   required from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::_set_noalias(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 10, 10, 0, 10, 10> >; Derived = Eigen::Matrix<double, 7, 10>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:537:7:[m[K   required from ‘[01m[KEigen::PlainObjectBase<Derived>::PlainObjectBase(const Eigen::DenseBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 10, 10, 0, 10, 10> >; Derived = Eigen::Matrix<double, 7, 10>][m[K’
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:377:29:[m[K   required from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, Eigen::Matrix<double, 10, 10, 0, 10, 10> >; _Scalar = double; int _Rows = 7; int _Cols = 10; int _Options = 0; int _MaxRows = 7; int _MaxCols = 10][m[K’
+[01m[K/mnt/planB/planning_explore/src/kalman/src/ekf.hpp:127:75:[m[K   required from here
+[01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:833:3:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: YOU_MIXED_MATRICES_OF_DIFFERENT_SIZES
+  833 |   [01;31m[KEIGEN_STATIC_ASSERT_SAME_MATRIX_SIZE[m[K(ActualDstTypeCleaned,Src)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ekf.dir/build.make:76: CMakeFiles/ekf.dir/src/ekf_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1485: CMakeFiles/ekf.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

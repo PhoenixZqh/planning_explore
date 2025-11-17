@@ -1,0 +1,4 @@
+[ 75%] Built target test_odom
+[ 75%] [32mBuilding CXX object CMakeFiles/ekf.dir/src/ekf_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ekf[0m
+[100%] Built target ekf

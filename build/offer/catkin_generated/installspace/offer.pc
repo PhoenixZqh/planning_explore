@@ -1,0 +1,8 @@
+prefix=/mnt/planB/planning_explore/install
+
+Name: offer
+Description: Description of offer
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

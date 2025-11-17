@@ -1,0 +1,1 @@
+/mnt/planB/planning_explore/devel/.private/offer/share/offer/cmake/offerConfig-version.cmake

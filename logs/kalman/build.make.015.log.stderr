@@ -1,0 +1,8 @@
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:[m[K In function ‘[01m[Kvoid quaternionToEuler(double, double, double, double, double&, double&, double&)[m[K’:
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:45:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   45 |     pitch = std::asin(std::[01;31m[Kclamp[m[K(sinp, -1.0, 1.0));
+      |                            [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/test_odom.dir/build.make:76: CMakeFiles/test_odom.dir/src/test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1511: CMakeFiles/test_odom.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2

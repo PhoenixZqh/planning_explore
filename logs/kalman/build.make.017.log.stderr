@@ -1,0 +1,40 @@
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:[m[K In lambda function:
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:48:24:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ is not captured
+   48 |         while (angle > [01;31m[KPI[m[K)
+      |                        [01;31m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:47:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   47 |     auto normalize = [[01;36m[K][m[K(double& angle) {
+      |                       [01;36m[K^[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:14:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double PI[m[K’ declared here
+   14 |     const double [01;36m[KPI[m[K        = 3.14159265358979323846;
+      |                  [01;36m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:49:28:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ is not captured
+   49 |             angle -= 2.0 * [01;31m[KPI[m[K;
+      |                            [01;31m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:47:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   47 |     auto normalize = [[01;36m[K][m[K(double& angle) {
+      |                       [01;36m[K^[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:14:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double PI[m[K’ declared here
+   14 |     const double [01;36m[KPI[m[K        = 3.14159265358979323846;
+      |                  [01;36m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:50:26:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ is not captured
+   50 |         while (angle <= -[01;31m[KPI[m[K)
+      |                          [01;31m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:47:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   47 |     auto normalize = [[01;36m[K][m[K(double& angle) {
+      |                       [01;36m[K^[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:14:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double PI[m[K’ declared here
+   14 |     const double [01;36m[KPI[m[K        = 3.14159265358979323846;
+      |                  [01;36m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:51:28:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ is not captured
+   51 |             angle += 2.0 * [01;31m[KPI[m[K;
+      |                            [01;31m[K^~[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:47:23:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   47 |     auto normalize = [[01;36m[K][m[K(double& angle) {
+      |                       [01;36m[K^[m[K
+[01m[K/mnt/planB/planning_explore/src/kalman/src/test.cpp:14:18:[m[K [01;36m[Knote: [m[K‘[01m[Kconst double PI[m[K’ declared here
+   14 |     const double [01;36m[KPI[m[K        = 3.14159265358979323846;
+      |                  [01;36m[K^~[m[K
+make[2]: *** [CMakeFiles/test_odom.dir/build.make:76: CMakeFiles/test_odom.dir/src/test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1511: CMakeFiles/test_odom.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
